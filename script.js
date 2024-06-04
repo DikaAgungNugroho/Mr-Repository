@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   me.addEventListener("click", function() {
     setTimeout(function() {
-      input.value = "Tim Recruitment"
+      input.focus()
       text.value = "Hallo Dika, Kami dari Tim Recruitment. Segera balas pesan ini jika kamu tertarik untuk bergabung"
     }, 800);
   })
