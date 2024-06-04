@@ -1,0 +1,205 @@
+/* #0C0C0C */
+/* #481E14 */
+/* #9B3922 */
+/* #F2613F */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Comic Sans MS;
+  color: #fff;
+}
+body {
+  background: #0C0C0C;
+  height: 100vh;
+}
+
+hr {
+  width: 50%;
+  margin-bottom: 20px;
+  height: 2px;
+  background: #481E14;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  background: #0C0C0C;
+  top: 0;
+  width: 100%;
+  border-bottom: 2px double white;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 0 15px 0 #F2613F;
+}
+
+.navigation hr {
+  width: 100px;
+  box-shadow: 0 0 15px 0 #F2613F;
+}
+.navigation a {
+  text-decoration: none;
+}
+.list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.container {
+  padding: 130px 20px 20px 20px;
+  margin: 0 auto -20px;
+  max-width: 720px;
+  box-shadow: 0 0 20px 0 #F2613F;
+  border-radius: 16px;
+}
+table td {
+  padding: 0 5px;
+}
+
+.isi {
+  margin-bottom: 30px;
+}
+
+.infosaya {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.infosayadi {
+  width: 75%;
+}
+.gambar {
+  width: 150px;
+  height: 160px;
+  border: 2px solid white;
+  border-radius: 8px;
+   background-image: url('dika.jpg');
+  background-position: center;
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+
+.saya button {
+  width: 150px;
+  padding: 5px 10px;
+  background: transparent;
+  border: 2px solid white;
+  margin: 10px 0;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.smk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.auto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+ol{
+  margin-left: 30px;
+}
+.kemampuan ol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hubungi, .hubungi form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hubungi p {
+  display: inline;
+}
+form {
+  width: 80%;
+}
+input {
+  width: 100%;
+  outline: none;
+  height: 30px;
+  font-size: 15px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: 10px auto;
+  padding: 5px;
+  background: #0C0C0C;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+  background: transparent;
+  border: 2px solid white;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 8px;
+  background: #0C0C0C;
+}
+button {
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  background: transparent;
+  border: 2px solid white;
+  margin: 10px auto;
+  border-radius: 8px;
+  background: #0C0C0C;
+}
+footer {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-top: 2px double white;
+  border-radius: 16px;
+  font-size: 12px;
+  margin: 0px auto;
+  background: #0C0C0C;
+}
+@media (max-width: 800px) {
+  .navigation ul{
+    display: none;
+  }
+  .navigation h1{
+    margin: 10px 0 0 0;
+  }
+  .navigation {
+    box-shadow: box-shadow: 0 0 15px 0 #F2613F;;
+  }
+  footer {
+    box-shadow: box-shadow: 0 0 15px 0 #F2613F;;
+  }
+}
+@media (max-width: 640px) {
+  .infosaya {
+    flex-direction: column;
+  }
+  * {
+    font-size: 15px;
+  }
+}
+@media (max-width: 550px) {
+ *{
+   font-size: 12px;
+ }
+}
+}
