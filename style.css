@@ -74,10 +74,10 @@ table td {
 }
 .gambar {
   width: 150px;
-  height: 160px;
+  height: 200px;
   border: 2px solid white;
   border-radius: 8px;
-   background-image: url('dika.jpg');
+  background-image: url('dika.jpg');
   background-position: center;
   background-size: 150px;
   background-repeat: no-repeat;
